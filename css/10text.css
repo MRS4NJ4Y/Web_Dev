@@ -1,0 +1,20 @@
+h1{
+    color:#eb1414;
+    text-align: center;
+    letter-spacing: 10px;
+}
+h2{
+    color: black;
+    text-align: right;
+    text-decoration:wavy green underline;
+    width: 5%;
+    font-weight: 100;
+}
+p{
+  color: #5805fe;  
+  text-align: center;
+  text-decoration: overline;
+  font-weight: bold;
+  font-size: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

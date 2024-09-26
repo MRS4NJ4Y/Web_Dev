@@ -1,0 +1,21 @@
+h1{
+    background-color: yellow;
+    color: blue;
+}
+
+h2{
+    background-color:rgb(0, 255, 0);
+    color: blue;
+}
+h3{
+    background-color:rgb(255, 0, 0);
+    color: blue;
+}
+P{
+    background-color:#ffffff;
+    color: blue;
+}
+li{
+    background-color:#000;
+    color:#ff0;
+}

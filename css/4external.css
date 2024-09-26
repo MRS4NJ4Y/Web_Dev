@@ -1,0 +1,19 @@
+h1{ 
+    color:red;
+    background-color: yellow;
+}
+h2{
+    color: red;
+    background-color:green;
+}
+h3{
+    color: black;
+    background-color: blue;
+}
+p{
+    color: blue;
+}
+button{
+    color:yellow; 
+    background-color: darkblue;
+}

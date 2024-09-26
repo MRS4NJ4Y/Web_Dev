@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lavel</title>
+</head>
+<body>
+    <h1>Lavel:Classical Attribute</h1>
+    <h2>User Form</h2>
+    <form action="/action">
+        <div>
+            <label for="username">Username : </label>
+            <input type="text" id="username" placeholder="Enter username">
+        </div>
+        <div>
+            <label for="password">Password : </label>
+            <input type="password" id="password" placeholder="Enter password">
+        </div>
+        <div>
+            <label for="email">Email : </label>
+            <input type="email" id="email" placeholder="Enter email">
+        </div>
+        <div>
+            <label for="number">Number : </label>
+            <input type="number" id="number" placeholder="Enter number">
+        </div>
+        <div>
+            <label for="age">Age : </label>
+            <input type="number" id="age" placeholder="Enter age">
+        </div>
+        <div>
+            <label for="date">Date : </label>
+            <input type="date" id="date" placeholder="Enter date">
+        </div>
+        <div>
+            <label for="time">Time : </label>
+            <input type="time" id="time" placeholder="Enter time">
+        </div>
+        <div>
+            <label for="image">Image : </label>
+            <input type="file" id="image" placeholder="Enter image">
+        </div>
+        <div>
+            choose your profession
+            <select name="profession" id="profession">
+                <option value="none">Select profession</option>
+                <option value="engineer" selected>Engineer</option>
+                <option value="developer">Developer</option>
+                <option value="teacher">Teacher</option>
+                <option value="student">Student</option>
+                <option value="other">Other</option>
+            </select>
+        </div>
+        <div>
+            <label for="income">Select Income(defult 100000): </label>
+            <input type="range" id="income" name="income" min="0" max="1000000" step="10" value="100000">
+        </div>
+        <div>
+            Gender : 
+            <label for="male">Male</label>
+            <input type="radio" name="Gender" value="male" id="male">
+            <label for="female">Female</label>
+            <input type="radio" name="Gender" value="female" id="female">
+            <label for="other">Other</label>
+            <input type="radio" name="Gender" value="other" id="other">
+        </div>
+        <div>
+            choose your subjects : 
+            <input type="checkbox" id="math" name="subjects" value="math">
+            <label for="math">Math</label>
+            <input type="checkbox" id="english" name="subjects" value="english">
+            <label for="english">English</label>
+            <input type="checkbox" id="computer" name="subjects" value="computer">
+            <label for="computer">Computer</label>
+            <input type="checkbox" id="physics" name="subjects" value="physics">
+            <label for="physics">Physics</label>
+            <input type="checkbox" id="chemistry" name="subjects" value="chemistry">
+            <label for="chemistry">Chemistry</label>
+            <input type="checkbox" id="biology" name="subjects" value="biology">
+            <label for="biology">Biology</label>
+        </div>
+        <div>
+            <label for="age">I am 18+</label>
+            <input type="checkbox" id="age" name="age">
+        </div>
+        <div>
+            <label for="checkbox1">Agree Term & Condition</label>
+            <input type="checkbox" id="checkbox1">
+        </div>
+        <div>
+<!--Button create By used button tag called button element-->
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+            <button type="button" onclick="location.href='https://www.google.com'">Go to Google</button>
+            <button type="button" onclick="alert('Thank You!')">Alert</button>
+            <button type="button">Help</button>
+        </div>
+        <div>
+<!--Button create By used input tag input called input element(it's not bettar then button tag)-->
+            <input type="submit" value="confirm" onclick="return confirm('Are you sure you want to submit?')">
+            <input type="button" value="open new page" onclick="window.open('https://www.google.com')">
+            <input type="submit" value="send">
+            <input type="button" value="click me"> 
+        </div>
+    </form>
+    <form action="/server">
+        <div>
+            <label for="feedback">please give your valuable Feedback : </label><br>
+            <textarea id="feedback" name="feedback" rows="10" cols="50" placeholder="write feedback hare"></textarea>
+        </div>
+        <div>
+            <button type="submit">submit</button>
+            <button type="reset">reset</button>
+        </div>   
+    </form>  
+</body>
+</html>
